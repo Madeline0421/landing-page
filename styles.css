@@ -1,9 +1,9 @@
 body { 
-
 }
 
 ul { 
-
+    color: #f9faf8;
+    list-style-type: none;
 }
 
 li {
@@ -11,19 +11,25 @@ li {
 }
 
 button {
-
+    background-color: #3882f6;
 }
 
-a { 
+a:active, a:visited, a:link {
+    text-decoration: none;
+    color: #f9faf8;
+}
 
+a:hover { 
+    text-decoration: underline;
 }
 
 .header { 
-
+    background-color: #1F2937;
+    display: flex;
 }
 
 .intro { 
-
+    background-color: #1F2937;
 }
 
 .random-info { 
@@ -31,23 +37,23 @@ a {
 }
 
 .quote { 
-
+    background-color: #e5e7eb;
 }
 
-.call-toaction { 
+.call-to-action { 
 
 }
 
 .copyright { 
-
+    background-color: #1F2937;
 }
 
 .generic-description { 
-
+    color: #f9faf8;
 }
 
 .sign-up { 
-
+    color: #f9faf8;
 }
 
 .card { 
@@ -55,7 +61,7 @@ a {
 }
 
 .blank-box { 
-
+    outline-color: #3882f6;
 }
 
 .subtext { 
@@ -63,15 +69,16 @@ a {
 }
 
 .call-button { 
-
+    color: #f9faf8;
 }
 
 #intro-header { 
-
+    display: flex;
+    color: #f9faf8;
 }
 
 #random-info-header { 
-
+    color: black;
 }
 
 #call-header { 
@@ -79,7 +86,7 @@ a {
 }
 
 #placeholder {
-
+    background-color: #e5e7eb;
 }
 
 #quote-body { 
@@ -90,6 +97,11 @@ a {
 
 }
 
-#blue-box { 
+#call-to-action-blue {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
 
+#header-logo {
+    color: #f9faf8;
 }
