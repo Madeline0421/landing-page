@@ -1,11 +1,16 @@
 body { 
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 ul { 
     color: #1F2937;
     list-style-type: none;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 li {
@@ -28,6 +33,9 @@ a:hover {
 
 .header { 
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .intro { 
@@ -119,4 +127,5 @@ a:hover {
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
 }
