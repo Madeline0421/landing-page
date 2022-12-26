@@ -1,17 +1,20 @@
 body { 
+    font-family: 'Roboto', sans-serif;
 }
 
 ul { 
-    color: #f9faf8;
+    color: #1F2937;
     list-style-type: none;
+    margin: 0px;
 }
 
 li {
-
+    color: #f9faf8;
 }
 
 button {
     background-color: #3882f6;
+    font-weight: bold;
 }
 
 a:active, a:visited, a:link {
@@ -25,7 +28,6 @@ a:hover {
 
 .header { 
     background-color: #1F2937;
-    display: flex;
 }
 
 .intro { 
@@ -46,10 +48,13 @@ a:hover {
 
 .copyright { 
     background-color: #1F2937;
+    font-size: 18px;
 }
 
 .generic-description { 
     color: #f9faf8;
+
+    font-size: 18px;
 }
 
 .sign-up { 
@@ -61,11 +66,15 @@ a:hover {
 }
 
 .blank-box { 
+    outline-style: solid;
     outline-color: #3882f6;
+    width: 50px;
+    height: 50px;
+    
 }
 
 .subtext { 
-
+    color: black;
 }
 
 .call-button { 
@@ -75,6 +84,8 @@ a:hover {
 #intro-header { 
     display: flex;
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 #random-info-header { 
@@ -82,7 +93,7 @@ a:hover {
 }
 
 #call-header { 
-
+    font-weight: bold;
 }
 
 #placeholder {
@@ -90,11 +101,13 @@ a:hover {
 }
 
 #quote-body { 
-
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 #author-quote { 
-
+    font-weight: bold;
 }
 
 #call-to-action-blue {
@@ -104,4 +117,6 @@ a:hover {
 
 #header-logo {
     color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
 }
