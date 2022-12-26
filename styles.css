@@ -20,6 +20,7 @@ li {
 button {
     background-color: #3882f6;
     font-weight: bold;
+    width: auto;
 }
 
 a:active, a:visited, a:link {
@@ -36,10 +37,16 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-basis: auto;
+    padding: 50px;
 }
 
 .intro { 
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
 }
 
 .random-info { 
@@ -61,12 +68,19 @@ a:hover {
 
 .generic-description { 
     color: #f9faf8;
-
+    flex-wrap: wrap;
     font-size: 18px;
 }
 
 .sign-up { 
     color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    flex: 1 1 50%;
 }
 
 .card { 
@@ -94,6 +108,7 @@ a:hover {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bold;
+    width: 400px;
 }
 
 #random-info-header { 
@@ -105,7 +120,12 @@ a:hover {
 }
 
 #placeholder {
-    background-color: #e5e7eb;
+    background-color: #b5b7b9;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
 }
 
 #quote-body { 
@@ -128,4 +148,13 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
     display: flex;
+}
+
+#placeholder-description { 
+    text-align: center;
+}
+
+#intro-description {
+    display: flex;
+    width: 400px;
 }
