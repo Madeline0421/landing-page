@@ -81,7 +81,6 @@ a:hover {
 
 .call-to-action { 
     border-radius: 10px;
-
     background-color: white;
     display: flex;
     justify-content: center;
@@ -89,8 +88,12 @@ a:hover {
 }
 
 .copyright { 
+
+    display: flex;
     background-color: #1F2937;
     font-size: 18px;
+    justify-content: center;
+    padding: 30px;
 }
 
 .generic-description { 
