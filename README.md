@@ -8,11 +8,7 @@ Uses CSS and HTML.
 
 <!-- ![](https://github.com/Madeline0421/landing-page/blob/main/image-previews/intro-and-header.png?raw=true) -->
 
-![Intro and Header](image-previews/intro-and-header.png)
-
-![Info and Quote](image-previews/info-and-quote.png)
-
-![Call to Action and Copyright](image-previews/call-to-action-and-copyright.png)
+![Preview](image-previews/full-browser-preview.png)
 
 ## Design by The Odin Project
 
