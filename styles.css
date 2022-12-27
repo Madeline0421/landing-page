@@ -102,7 +102,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    flex-basis: 60%;
+    flex-basis: 55%;
     flex-shrink: 1;
     gap: 10px;
     align-items: flex-start;
@@ -175,7 +175,7 @@ a:hover {
     color: #f9faf8;
     justify-content: center;
     align-items: center;
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 
 #quote-body { 
