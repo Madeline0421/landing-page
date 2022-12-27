@@ -18,9 +18,16 @@ li {
 }
 
 button {
+    display: flex;
+    justify-content: center;
     background-color: #3882f6;
     font-weight: bold;
-    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    width: 100px;
+    font-size: 15px;
+    
 }
 
 a:active, a:visited, a:link {
@@ -38,15 +45,17 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     flex-basis: auto;
-    padding: 50px;
+    padding: 30px 200px 100px 200px;
 }
 
 .intro { 
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 50px;
+    justify-content: space-between;
+    padding: 10px 200px 200px 200px;
+    min-width: 0px;
+    gap: 30px;
 }
 
 .random-info { 
@@ -80,7 +89,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    flex: 1 1 50%;
+    flex-basis: 60%;
+    flex-shrink: 1;
+    gap: 10px;
+    align-items: flex-start;
 }
 
 .card { 
@@ -104,11 +116,10 @@ a:hover {
 }
 
 #intro-header { 
-    display: flex;
     color: #f9faf8;
     font-size: 48px;
-    font-weight: bold;
-    width: 400px;
+    font-weight: bolder;
+    display: flex;
 }
 
 #random-info-header { 
@@ -120,12 +131,12 @@ a:hover {
 }
 
 #placeholder {
-    background-color: #b5b7b9;
+    background-color: #979da3;
     display: flex;
     color: #f9faf8;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 #quote-body { 
@@ -156,5 +167,6 @@ a:hover {
 
 #intro-description {
     display: flex;
-    width: 400px;
+    max-width:80%;
+
 }
