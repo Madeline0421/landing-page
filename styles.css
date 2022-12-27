@@ -172,6 +172,7 @@ a:hover {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
+    max-width: 90%;
 }
 
 #random-info-header { 
