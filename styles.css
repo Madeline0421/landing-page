@@ -68,8 +68,15 @@ a:hover {
     align-items: center;
 }
 
-.quote { 
+.quote {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 50px 300px 50px 300px;
+    min-width: 0px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action { 
@@ -179,6 +186,8 @@ a:hover {
 
 #author-quote { 
     font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
 }
 
 #call-to-action-blue {
