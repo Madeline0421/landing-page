@@ -81,7 +81,7 @@ a:hover {
 
 .call-to-action { 
     border-radius: 10px;
-    
+
     background-color: white;
     display: flex;
     justify-content: center;
@@ -149,10 +149,19 @@ a:hover {
     color: black;
     
 }
+.call-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .call-button { 
     color: #f9faf8;
+    border-color: white;
+    outline-color: white;
 }
+
 
 #intro-header { 
     color: #f9faf8;
@@ -197,10 +206,16 @@ a:hover {
 }
 
 #call-to-action-blue {
-
-    padding: 10px 200px 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 50px 125px 50px 125px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 10px;
+    border-color: #3882f6;
+    width: auto;
+    margin: 50px;
 }
 
 #header-logo {
