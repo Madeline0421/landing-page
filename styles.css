@@ -60,8 +60,12 @@ a:hover {
 
 .random-info { 
     display: flex;
-
     flex-direction: column;
+    padding: 50px 200px 100px 200px;
+    min-width: 0px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote { 
@@ -100,23 +104,38 @@ a:hover {
 .card { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+
 }
 
 .blank-box { 
     outline-style: solid;
+    border-radius: 20px;
     outline-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
     width: 150px;
     height: 150px;
-    
+    align-self: center;
 }
 
 .all-cards { 
     display: flex;
     flex-direction: row;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    gap: 30px;
+
 }
 
 .subtext { 
+    display: flex;
     color: black;
+    
 }
 
 .call-button { 
