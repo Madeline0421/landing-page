@@ -80,7 +80,12 @@ a:hover {
 }
 
 .call-to-action { 
-
+    border-radius: 10px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .copyright { 
@@ -167,6 +172,7 @@ a:hover {
 
 #call-header { 
     font-weight: bold;
+    font-size: 24px;
 }
 
 #placeholder {
@@ -186,18 +192,20 @@ a:hover {
 
 #author-quote { 
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     margin-left: auto;
 }
 
 #call-to-action-blue {
+
+    padding: 10px 200px 10px 200px;
     background-color: #3882f6;
     color: #f9faf8;
 }
 
 #header-logo {
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     display: flex;
 }
